@@ -628,6 +628,9 @@ window.onkeyup=function(e){
     }
 }
 
+setTimeout(()=>{Mechanic.startRun()}, 2000)
+// setTimeout(Mechanic.startRun, 2000)
+
 function horses_unsort(){
     horses.map((horse,i)=>{
         function go(){
