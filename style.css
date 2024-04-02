@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("https://img.freepik.com/fotos-gratis/uma-pintura-de-um-lago-de-montanha-com-uma-montanha-ao-fundo_188544-9126.jpg"); */
+    background-color: black;
+}
+
+.mask{
+    --x: 0px;
+    --y: 0px;
+    position: relative;
+    width: 682px;
+    height: 384px;
+    /* mask-image: url("./imgs/a2/full.png"); */
+    /* mask-mode: luminance; */
+    /* mask-position: var(--x) var(--y); */
+    /* overflow: hidden;
+    mask-image: url("./imgs/a2/full.png");
+    mask-mode: luminance;
+    mask-position: var(--x) var(--y);
+    overflow-y: scroll; */
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+
+
+/* .mask img{ */
+    /* width: 100%; */
+/* } */
+
+

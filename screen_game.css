@@ -1,0 +1,30 @@
+:root{
+    --mountain_x: -100px;
+    --cloud_x: 0%;
+    --tree_1: 0px;
+    --tree_2: 500px;
+}
+
+
+.screen_game{
+    /* width: 1080px;
+    height: 1920px; */
+    width: 100%;
+    height: 100vh;
+    
+    /* background-color: red; */
+    position: relative;
+    background-image: url("./art/background.png");
+    /* background-image: url("./art/background.png"); */
+    /* background-color: black; */
+    background-size: contain;
+    overflow: hidden;
+    margin: auto;
+}
+
+.screen_game > *{
+    position: absolute;
+}
+
+
+
