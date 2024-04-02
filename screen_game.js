@@ -649,6 +649,8 @@ let x=0
 function loop(){
     if(!isPaused) 
         camera(x+=0.01)
+
+    window.requestAnimationFrame(loop)
 }
 
 window.addEventListener('DOMContentLoaded',e=>{
@@ -656,12 +658,14 @@ window.addEventListener('DOMContentLoaded',e=>{
     
 
     // setTimeout(e=>{
-        setInterval(()=>{
-            loop()
-        }, 1000 / 60)
+        // setInterval(()=>{
+        //     loop()
+        // }, 1000 / 60)
+        window.requestAnimationFrame(loop)
     // }, 500)
 })
 
+// window.requestAnimationFrame(loop)
 
 window.onmousemove=function(e){
     // x = e.clientX
